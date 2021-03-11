@@ -9,7 +9,6 @@ Bertrand-Edgeworth competition in experimental markets.
 Econometrica: Journal of the Econometric Society, 343-371."
 """
 
-
 class Constants(BaseConstants):
     players_per_group = 2
     name_in_url = 'bertrand'

@@ -27,7 +27,8 @@ class Subsession(BaseSubsession):
 
 
 class Group(BaseGroup):
-    pass
+    def is_displayed(self):
+        return True
 
 
 class Player(BasePlayer):
